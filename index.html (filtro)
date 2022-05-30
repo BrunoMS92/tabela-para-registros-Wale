@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <main>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--<link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist\css\bootstrap.min.css" /> 
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist\css\bootstrap.css" /> --> 
+    <title>Wale Pesquisa</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho d-flex align-items-center justify-content-between">
+            <div class="logowale ">
+                <img class="me-5" src="./img/Wale_Logocolor.png" alt="imagemwale" height="80px" width="90px">      
+            </div>
+                <h1 style="color:#ebd705">Wale</h1>
+           
+           
+            <div class="botoes"  >
+               <button style="background-color:#ebd705">INÍCIO</button>
+               <button style="background-color:#ebd705">REGISTROS</button>
+               <button style="background-color:#ebd705" >PREVISÕES</button>
+            </div>
+            <div class="bot-reg">
+                <button style="background-color:#ebd705">ENTRAR</button>
+                <button style="background-color:#ebd705">REGISTRAR</button>
+            </div>
+            <div class="conta"></div>
+        </div>      
+    </header>
+    <div class="conteudo">
+        <br>
+        <div class="box">
+            <div class="item1">
+            <br>
+            <div class="item2"></div>
+        </div>
+            <div class="item3">
+                <br><br>
+                <div class="filtrar1">
+                            <input type="text" name="Filtrar pelo Nome" size="42px" value="Filtrar pelo Nome">
+                            <br><br>
+                            <input type="text" name="Filtrar pelo Responsável" size="42px" value="Filtrar pelo Responsável">
+                            <br><br>
+                
+                <div class="dv">
+                    <input type="date" name="Filtrar por Data" size="20px"> &nbsp  <input class="valor" type="value" name="Filtrar por Valor" size="20px" value="Filtrar por Valor">
+                    <br>
+                    <button class="filtrarb" style="background-color:#ebd705">FILTRAR</button>
+            </div>  
+            </div> 
+            <div class="filtrar2">
+                <input type="text" name="Filtrar pelo Nome" size="42px" value="Filtrar pelo Nome">
+                <br><br>
+                <input type="text" name="Filtrar pelo Responsável" size="42px" value="Filtrar pelo Responsável">
+                <br><br>
+    
+    <div class="dv">
+        <input type="date" name="Filtrar por Data" size="20px"> &nbsp  <input class="valor" type="value" name="Filtrar por Valor" size="20px" value="Filtrar por Valor">
+        <br>
+        <button class="filtrarb" style="background-color:#ebd705">FILTRAR</button>
+</div>    
+            </div> 
+            </div>
+            </div>
+</main>
+</body>
+</html
